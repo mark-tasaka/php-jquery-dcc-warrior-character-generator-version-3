@@ -10,3 +10,7 @@ Update 1.01: 2020-12-11
 Merged contents of warrior_post.css and warrior.css into warrior.css.  Deleted warrior_post.css.  Revised code in warrior.css file.
 
 Deleted a several file due to mistake made when uploaded files to wrong folder.
+
+Update 1.02: 2020-12-12
+
+Updated warrior.css.
