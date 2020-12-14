@@ -14,3 +14,7 @@ Deleted a several file due to mistake made when uploaded files to wrong folder.
 Update 1.02: 2020-12-12
 
 Updated warrior.css.
+
+Update 1.03: 2020-12-13
+
+Added a new character sheet (warrior.png) and updated warrior.css
