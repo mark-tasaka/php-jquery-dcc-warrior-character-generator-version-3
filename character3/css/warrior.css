@@ -22,24 +22,24 @@ body{
 
 #characterName{
     position:absolute;
-    top: 130px;
-    left: 85px;
-	font-size: 0.9em;
+    top: 135px;
+    left: 75px;
+	font-size: 0.85em;
 }
 
 #gender{
     position:absolute;
-    top: 130px;
+    top: 135px;
     left: 275px;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 
 #alignment{
     position:absolute;
-    top: 130px;
-    left: 590px;
-	font-size: 0.9em;
+    top: 135px;
+    left: 580px;
+	font-size: 0.85em;
 }
 
 
@@ -47,7 +47,7 @@ body{
     position:absolute;
     top: 195px;
     left: 310px;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 
@@ -153,10 +153,10 @@ body{
 
 #gearList{
     position:absolute;
-    top: 395px;
-    left: 600px;
+    top: 735px;
+    left: 450px;
     font-size: 0.6em;
-    width: 310px;
+    width: 220px;
 }
 
 
@@ -214,7 +214,7 @@ body{
     position:absolute;
     top: 195px;
     left: 90px;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 
@@ -319,7 +319,7 @@ body{
     position:absolute;
     top: 195px;
     left: 165px;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 
@@ -333,9 +333,9 @@ body{
 
 #profession{
     position:absolute;
-    top: 125px;
-    left: 493px;
-	font-size: 0.75em;
+    top: 135px;
+    left: 380px;
+	font-size: 0.85em;
 }
 
 #exNextLevel{
@@ -462,9 +462,9 @@ body{
 #birthAugur{
     position:absolute;
     top: 270px;
-    left: 735px;
-    font-size: 0.6em;
-    width: 175px;
+    left: 350px;
+    font-size: 0.8em;
+    width: 320px;
 }
 
 #languages{
