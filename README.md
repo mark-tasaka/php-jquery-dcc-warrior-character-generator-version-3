@@ -18,3 +18,7 @@ Updated warrior.css.
 Update 1.03: 2020-12-13
 
 Added a new character sheet (warrior.png) and updated warrior.css
+
+Update 1.04: 2020-12-14
+
+warrior.css updated.
