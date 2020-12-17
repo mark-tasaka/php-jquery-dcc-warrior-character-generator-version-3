@@ -159,14 +159,14 @@ body{
     width: 220px;
 }
 
-
+/*
 
 #move{
     position:absolute;
     top: 1072px;
     left: 165px;
 	font-size: 1em;
-}
+}*/
 
 #abilityScoreGeneration{
     position:absolute;
@@ -187,9 +187,9 @@ body{
 
 #baseAC{
     position:absolute;
-    top: 620px;
-    left: 371px;
-	font-size: 0.6em;
+    top: 357px;
+    left: 222px;
+	font-size: 0.9em;
 }
 
 
@@ -325,9 +325,9 @@ body{
 
 #speed{
     position:absolute;
-    top: 170px;
-    left: 475px;
-	font-size: 0.75em;
+    top: 435px;
+    left: 835px;
+	font-size: 1.2em;
 }
 
 
@@ -345,7 +345,7 @@ body{
 	font-size: 0.8em;
 }
 
-
+/*
 #exBonus{
     position:absolute;
     top: 192px;
@@ -359,7 +359,7 @@ body{
     top: 332px;
     left: 85px;
 	font-size: 1.1em;
-}
+}*/
 
 #armourClass{
     position:absolute;
@@ -370,30 +370,30 @@ body{
 
 #armourACBonus{
     position:absolute;
-    top: 920px;
-    left: 78px;
-	font-size: 0.8em;
+    top: 930px;
+    left: 101px;
+	font-size: 0.9em;
 }
 
 #armourACCheckPen{
     position:absolute;
-    top: 920px;
-    left: 138px;
-	font-size: 0.8em;
+    top: 930px;
+    left: 191px;
+	font-size: 0.9em;
 }
 
 #armourACSpeedPen{
     position:absolute;
-    top: 920px;
-    left: 203px;
-	font-size: 0.8em;
+    top: 930px;
+    left: 275px;
+	font-size: 0.9em;
 }
 
 #fumbleDie{
     position:absolute;
-    top: 920px;
-    left: 265px;
-	font-size: 0.8em;
+    top: 930px;
+    left: 345px;
+	font-size: 0.9em;
 }
 
 #hitPoints{
@@ -405,23 +405,23 @@ body{
 
 #reflex{
     position:absolute;
-    top: 260px;
-    left: 655px;
-	font-size: 1em;
+    top: 355px;
+    left: 755px;
+	font-size: 1.4em;
 }
 
 #fort{
     position:absolute;
-    top: 285px;
-    left: 655px;
-	font-size: 1em;
+    top: 420px;
+    left: 755px;
+	font-size: 1.4em;
 }
 
 #will{
     position:absolute;
-    top: 310px;
-    left: 655px;
-	font-size: 1em;
+    top: 355px;
+    left: 825px;
+	font-size: 1.4em;
 }
 
 #criticalDieTable{
@@ -469,10 +469,10 @@ body{
 
 #languages{
     position:absolute;
-    top: 480px;
-    left: 365px;
-    font-size: 0.6em;
-    width: 175px;
+    top: 430px;
+    left: 360px;
+    font-size: 0.8em;
+    width: 300px;
 }
 
 

@@ -285,7 +285,7 @@
 
         <span id="armourACBonus">
             <?php
-                echo $totalAcDefense;
+                echo '+' . $totalAcDefense;
             ?>
         </span>
 
@@ -571,7 +571,7 @@
       $("#rangeDamage").html(addModifierSign(data.rangeDamage));
 
       
-      $("#baseAC").html("Base AC: " + data.acBase);
+      $("#baseAC").html("(" + data.acBase + ")");
       $("#trainedWeapon").html("Trained Weapon: " + data.trainedWeapon);
       $("#tradeGoods").html("Trade Goods: " + data.tradeGoods);
       
