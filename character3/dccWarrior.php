@@ -51,6 +51,13 @@
             $characterName = $_POST["theCharacterName"];
     
         }
+
+        
+        if(isset($_POST["thePlayerName"]))
+        {
+            $playerName = $_POST["thePlayerName"];
+    
+        }
         
         if(isset($_POST["theGender"]))
         {
@@ -254,6 +261,14 @@
                 echo $characterName;
            ?>
         </span>
+
+        
+       <span id="playerName">
+           <?php
+                echo $playerName;
+           ?>
+        </span>
+       
        
               
          <span id="alignment">

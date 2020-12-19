@@ -53,9 +53,9 @@ body{
 
 #playerName{
     position:absolute;
-    top: 145px;
-    left: 430px;
-	font-size: 1em;
+    top: 200px;
+    left: 480px;
+	font-size: 0.85em;
 }
 
 
@@ -107,14 +107,14 @@ body{
 
 #weaponsList{
     position:absolute;
-    top: 990px;
+    top: 995px;
     left: 85px;
 	font-size: 0.65em;
 }
 
 #weaponsList2{
     position:absolute;
-    top: 990px;
+    top: 995px;
     left: 345px;
 	font-size: 0.65em;
 }
@@ -400,23 +400,23 @@ body{
 
 #criticalDieTable{
     position:absolute;
-    top: 409px;
-    left: 480px;
-	font-size: 0.6em;
+    top: 360px;
+    left: 465px;
+	font-size: 0.7em;
 }
 
 #deedDie{
     position:absolute;
-    top: 353px;
-    left: 480px;
-	font-size: 0.6em;
+    top: 400px;
+    left: 475px;
+	font-size: 0.7em;
 }
 
 #initiative{
     position:absolute;
-    top: 335px;
-    left: 495px;
-	font-size: 0.6em;
+    top: 365px;
+    left: 365px;
+    font-size: 1em;
 }
 
 #actionDice{
@@ -428,8 +428,8 @@ body{
 
 #threatRange{
     position:absolute;
-    top: 390px;
-    left: 480px;
+    top: 375px;
+    left: 610px;
 	font-size: 0.6em;
 }
 
