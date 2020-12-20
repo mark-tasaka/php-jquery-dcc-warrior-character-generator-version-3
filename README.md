@@ -3,9 +3,15 @@ Designed with PHP and jQuery, the Dungeon Crawl Classics Warrior Character Gener
 
 
 
+
+Update 1.08: 2020-12-19
+
+Added xp.php file.  Updated dccWarrior.php, gear.php and warrior.css files. Added new character sheet (warrior.png).
+
+
 Update 1.07: 2020-12-18
 
-Modified dccWarrior.php and warropr.css.  Added new character sheet (warrior.png).
+Modified dccWarrior.php and warrior.css.  Added new character sheet (warrior.png).
 
 
 Update 1.06: 2020-12-17
