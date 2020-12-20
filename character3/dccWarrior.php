@@ -44,6 +44,7 @@
     include 'php/clothing.php';
     include 'php/abilityScoreGen.php';
     include 'php/randomName.php';
+    include 'php/xp.php';
     
 
         if(isset($_POST["theCharacterName"]))
@@ -80,6 +81,8 @@
             $level = $_POST["theLevel"];
         
         } 
+
+        $xpNextLevel = getXPNextLevel ($level);
         
         if(isset($_POST["theAbilityScore"]))
         {
@@ -175,22 +178,38 @@
         array_push($weaponDamage, getWeapon($select)[1]);
     }
         
+
+    //For manually select gear
         $gearArray = array();
         $gearNames = array();
-    
-    
+
+
+
+    //For Random Select gear
+    if(isset($_POST['theCheckBoxRandomGear']) && $_POST['theCheckBoxRandomGear'] == 1) 
+    {
+        $gearArray = getRandomGear();
+
+    }
+    else
+    {
+        //For Manually select gear
         if(isset($_POST["theGear"]))
-        {
-            foreach($_POST["theGear"] as $weapon)
             {
-                array_push($gearArray, $weapon);
+                foreach($_POST["theGear"] as $gear)
+                {
+                    array_push($gearArray, $gear);
+                }
             }
-        }
+
+    }
+
     
         foreach($gearArray as $select)
         {
             array_push($gearNames, getGear($select)[0]);
         }
+
     
     
     ?>
@@ -254,6 +273,11 @@
            ?>
         </span>
        
+       <span id="xpNextLevel">
+           <?php
+                echo $xpNextLevel;
+           ?>
+        </span>
 
        
        <span id="characterName">
