@@ -12,7 +12,7 @@ Fantastic Adventures and the Disgruntled Gong Farmer: A DCC Adventure Module:
 https://www.tasaka-games.com/dcc/more/classes/warrior/
 
 
-
+-------------------------------------------------------------------------------------------------
 
 Update 1.10: 2020-12-21
 
