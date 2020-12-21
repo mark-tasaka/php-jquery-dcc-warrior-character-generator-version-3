@@ -150,9 +150,11 @@
        
        if(isset($_POST["theLuckyWeapon"]))
        {
-           $luckyWeapon = $_POST["theLuckyWeapon"];
+           $luckyWeaponNumberString = $_POST["theLuckyWeapon"];
        } 
 
+       $luckyWeaponNumber = (int)$luckyWeaponNumberString;
+       $luckyWeapon = getWeapon($luckyWeaponNumber)[0];
 
          
         $weaponArray = array();
@@ -160,6 +162,15 @@
         $weaponDamage = array();
     
     
+
+    //For Random Select gear
+    if(isset($_POST['thecheckBoxRandomWeaponsV3']) && $_POST['thecheckBoxRandomWeaponsV3'] == 1) 
+    {
+        $weaponArray = getRandomWeapons($luckyWeaponNumber);
+
+    }
+    else
+    {
         if(isset($_POST["theWeapons"]))
         {
             foreach($_POST["theWeapons"] as $weapon)
@@ -167,6 +178,8 @@
                 array_push($weaponArray, $weapon);
             }
         }
+    }
+
     
     foreach($weaponArray as $select)
     {
@@ -178,8 +191,6 @@
         array_push($weaponDamage, getWeapon($select)[1]);
     }
         
-
-    //For manually select gear
         $gearArray = array();
         $gearNames = array();
 
@@ -189,6 +200,41 @@
     if(isset($_POST['theCheckBoxRandomGear']) && $_POST['theCheckBoxRandomGear'] == 1) 
     {
         $gearArray = getRandomGear();
+
+        $weaponCount = count($weaponArray);
+
+        $hasLongbow = false;
+        $hasShortbow = false;
+
+        for($i = 0; $i < $weaponCount; ++$i)
+        {
+            if($weaponArray[$i] == "12" && $hasShortbow == false)
+            {
+                array_push($gearArray, 24);
+                array_push($gearArray, 25);
+                
+                $hasLongbow = true;
+            }
+
+            if($weaponArray[$i] == "16" && $hasLongbow == false)
+            {
+                array_push($gearArray, 24);
+
+                $hasShortbow = true;
+            }
+
+            if($weaponArray[$i] == "4")
+            {
+                array_push($gearArray, 26);
+            }
+
+            if($weaponArray[$i] == "18")
+            {
+                array_push($gearArray, 27);
+            }
+
+
+        }
 
     }
     else
