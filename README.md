@@ -1,6 +1,8 @@
 # php-jquery-dcc-warrior-character-generator-version-3
 Designed with PHP and jQuery, the Dungeon Crawl Classics Warrior Character Generator Version 3 randomly generates a character. The generator allows for the user to input different parameters to determine the character's level, equipment, weapons, alignment, etc.
 
+----------------------------------------------------------------------------
+
 Live versions of the Dungeon Crawl Classics (DCC) Warrior Character Generator Version 3 are found at:
 
 Dwarves, Warriors and Mighty Deeds: A Dungeon Crawl Classics Fan Site:
@@ -12,7 +14,7 @@ Fantastic Adventures and the Disgruntled Gong Farmer: A DCC Adventure Module:
 https://www.tasaka-games.com/dcc/more/classes/warrior/
 
 
--------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
 Update 1.10: 2020-12-21
 
