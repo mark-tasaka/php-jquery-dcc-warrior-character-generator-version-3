@@ -16,6 +16,12 @@ https://www.tasaka-games.com/dcc/more/classes/warrior/
 
 -----------------------------------------------------------------------------
 
+
+Update 1.12: 2020-12-23
+
+Updates to armour.php.
+
+
 Update 1.11: 2020-12-22
 
 New character sheet (warrior.png) added.
