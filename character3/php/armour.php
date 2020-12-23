@@ -22,9 +22,5 @@
     }
 
 
-    function getShield($input)
-    {
-        
-    }
 
 ?>
