@@ -16,6 +16,11 @@ https://www.tasaka-games.com/dcc/more/classes/warrior/
 
 -----------------------------------------------------------------------------
 
+Update 1.11: 2020-12-22
+
+New character sheet (warrior.png) added.
+
+
 Update 1.10: 2020-12-21
 
 A launch page has been added for the DCC Warrior Character Generator Version 3.
